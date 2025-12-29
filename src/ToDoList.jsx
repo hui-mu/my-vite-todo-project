@@ -18,15 +18,14 @@ const ToDoList = () => {
   } = useToDos();
 
   return (
-    <div className="card">
-      <div className="header">
+    <div className='card'>
+      <div className='header'>
         <h2>Todo</h2>
         <p>{itemCount} items left</p>
       </div>
-      <div className="checkboxList">
+      <div className='checkboxList'>
         <form onSubmit={addTask}>
           <input
-            autofocus
             type={"text"}
             placeholder={"Add a task..."}
             value={taskInput}

@@ -21,3 +21,5 @@ build/
 # Optional: env files
 .env
 .env.local
+
+log.txt
