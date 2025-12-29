@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.card {
+  width: 50%;
+  background-color: greenyellow;
+  /* TODO:修改卡片底色 */
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  gap: 4px;
+}
+.checkboxList {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.task label input:checked + span {
+  text-decoration: line-through;
+}
+
+.task {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%; /* 父容器必须有足够宽度 */
+}
+
+.itemButton {
+  display: flex; /* 让按钮水平排列 */
+  gap: 4px; /* 按钮间距，可选 */
+}
