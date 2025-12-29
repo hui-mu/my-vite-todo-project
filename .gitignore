@@ -1,0 +1,23 @@
+# Node modules
+node_modules/
+.pnpm-store/
+
+# Logs
+*.log
+
+# OS / Editor
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+
+# CodeSandbox / Container
+.codesandbox/
+.devcontainer/
+
+# Optional: env files
+.env
+.env.local
